@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+}  
+
+body {
+    font-family: 'Heebo';
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100vw;
+
+}
+
+.container  {
+    width:90%;
+    margin:0 auto;
+}
+/* Header */
+header {
+    height: 100vh;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.nav__item {
+    width:100%;
+    text-align: end;
+    padding: 20px 0;
+}
+
+.nav__item>a {
+    margin:20px 10px;
+    font-size:26px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+
+.icon__burger {
+    font-size:3em;
+    display: none;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70vw;
+    height:calc(100vh - 220px);
+    margin:50px auto;
+    align-items: flex-end;
+
+}
+
+.resume {
+    width:60%;
+}
+
+.resume>h1 {
+    font-size:44px;
+    font-weight: 700;
+}
+
+.resume__text {
+    color:#21243D;
+    font-size:18px;
+    line-height: 23px;
+    margin:20px 0;
+}
+
+.btn {
+    background-color: #FF6464;
+    padding:15px 30px;
+    border:none;
+    font-size:20px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.rasm {
+    width:250px;
+    border-radius: 50%;    
+}
+
+/* Recent Section */
+.recent__posts {
+    background-color:#EDF7FA;
+    box-sizing: content-box;
+    padding:0 10%;
+    max-height: 470px;
+    overflow: hidden;
+}
+
+.tepa__chast {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:90%;
+    text-align: center;
+    margin:20px auto;
+    font-size:1.1rem;
+}
+
+.tepa__chast>a {
+    text-decoration:none;
+    
+}
+
+.tepa__chast>h3 {
+    font-size:1.3rem;
+    font-weight: 500;
+}
+
+.box__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width:90%;
+    margin:10px auto;
+    gap:50px 10px;
+}
+
+.box {
+    background-color:#fff;
+    padding:20px;
+    border-radius:5px;
+    font-size:20px;
+    margin:20px 10px;
+    max-height:50vh;
+}
+
+.box__title {
+    font-size:1.6em;
+    font-weight:700;
+
+}
+
+.box__middle {
+    font-size:1.1em;
+    margin:20px 0;
+}
+
+.box__text {
+    padding:0px 40px  20px 0;
+    font-size:0.9em;
+}
+
+/* Futured works Section */
+.futured__works {
+    width:90%;
+    /* margin:70vh auto 0; */
+}
+
+.futured__title {
+    font-size:1.3rem;
+    font-weight: 500;
+    margin:2em auto 0;
+    width:90%;
+}
+
+.futured__box__container {
+    display: flex;
+    width:90%;
+    margin:0 auto;
+    flex-direction:column;
+}
+
+.futured__box {
+    display: flex;
+    margin:2em 0;    
+}
+
+.image {
+    /* width:246px; */
+    height:180px;
+}
+
+.right {
+    margin-left:2em;
+}
+
+.futured__box__title {
+    font-size:2.2em;
+    font-weight:bolder;
+    color:rgb(33, 36, 30);
+}
+
+.futured__middle {
+    display: flex;
+    justify-content: space-between;
+    width:fit-content;
+    margin:1em 0;
+
+}
+
+.futured__middle>.number {
+    background-color: #21243D;
+    color:#fff;
+    font-size:1.5em;
+    padding:0 8px;
+    border-radius:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futured__middle>.jobs {
+    font-size:1.7em;
+    color:gray;
+    margin-left:1em;
+}
+
+.futured__box__text {
+    font-size:1.1em;
+}
+
+/* FOOTER  */
+footer {
+    text-align: center;
+    align-items:center;
+    padding:2em;
+    margin:2em;
+
+}
+
+.icons {
+    font-size:3em;
+    color:#21243D;
+    
+}
+
+.icon {
+    margin:0 0.3em;
+}
+
+.company {
+    font-size:1.1em;
+    margin-top: 0.2em;
+
+}
+

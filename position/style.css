@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    position: relative;
+    margin-top:15px;
+    width:70vw;
+    height:35vh;
+    background-color: rgb(121, 121, 243);
+    text-align: center;
+    border-radius:5px;   
+}
+
+.title {
+    color:#fff;
+    font-size:52px;
+    text-align:center;
+}
+
+.aka {
+    margin-top:50px ;
+    font-size:26px;
+    padding:30px 25px;
+    width:60%;
+    border-radius:5px;
+    border:none;
+}
+.aka:focus {
+    outline: none;
+}
+
+.btn {
+    position: absolute;
+    top:12vh;
+    left:68%;
+    font-size:26px;
+    color:#fff;
+    background-color: rgb(121, 121, 243);
+    border-radius:5px;
+    border:none;
+    padding: 16px 20px;
+}
+main {
+    display:flex;
+    justify-content: space-around;
+    margin-top:100px;
+}
+.box {
+    max-width:20vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    /* align-items: center; */
+}
+
+.box>div {
+    font-size:26px;
+}
+.box>div:first-child {
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.box .icon {
+    font-size:50px;
+}
+
+.p {
+    line-height: 1.2;
+    font-size:26px;
+}

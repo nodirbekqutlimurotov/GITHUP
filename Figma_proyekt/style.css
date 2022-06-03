@@ -1,0 +1,186 @@
+
+* {
+    box-sizing: border-box;
+}
+@import url('https://fonts.google.com/specimen/Raleway?sort=popularity');
+body {
+    font-family: 'Raleway';
+    width:100vw;
+}
+.clr {
+    clear: both;
+}
+header {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+header #navbar {
+    display: flex;
+    align-items: center;
+}
+header #navbar a {
+    margin:10px;
+    padding: 10px;
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+header #navbar .moto {
+    width:150px;
+    margin-left:150px;
+    display: inline-block;
+    position:relative;
+}
+header #navbar .moto .x {
+    position: absolute;
+    bottom:-10px;
+    left:-35px;
+    word-break: keep-all;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+header #navbar .location {
+    display: inline;
+    margin:0 100px;
+}
+header #navbar .sale {
+    float: right;
+    margin:auto;
+}
+header #nav {
+    background-color: #eee;
+    padding:10px 0;
+    margin:20px;
+}
+header #nav a {
+    display: inline-block;
+    margin:0 35px;
+    text-decoration: none;
+    color:#000;
+    cursor: pointer;
+}
+header #nav a.active {
+    font-weight: bold;
+}
+/* header .nav-anime {
+    margin:auto;
+} */
+header .nav-anime {
+    position: relative;
+}
+header .nav-anime .rasm {
+    background-image: url('./image/kompyuter.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width:70vw;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px 0 0 0;
+    float: left;
+
+}
+.nav-anime .aksiya-container {
+    position:absolute;
+    right:80px;
+    width:20vw;
+    height:400px;
+    background-image:url('./image/fleyta.jpg');
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: #348234;
+
+}
+.btn {
+    display: inline;
+    background-color: rgb(43, 43, 205);
+    border:none;
+    padding:8px 25px;
+    color:#fff;
+    margin:0;
+}
+.nav-anime .aksiya-container .aksiya-cost {
+    margin-left:50px;
+    color: rgb(43, 43, 205);
+    font-weight: bold;
+    font-size: 26px;
+}
+header .nav-anime .aksiya-container .aksiya-text {
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    width: max-content;
+    position:absolute;
+    left:10%;
+    top: 60%;
+    font-size: 28px;
+    color:#eee;
+}
+.aksiya-container .aksiya-foot {
+    display: inline-block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:20px 30px;
+    color:black;
+    text-align: center;
+    background-color: rgb(199, 192, 192);
+}
+.aksiya-container .aksiya-foot .date {
+    color:blue;
+    font-weight: bold;
+}
+main .search-container {
+    padding:30px 0 15px 5px;
+}
+main .search-container .search-panel .panel-main{
+    color:#000;
+    cursor:pointer;
+    text-decoration:none;
+    margin:0 20px;
+    padding:3px 8px;
+}
+main .search-container .search-panel .panel-main.panel {
+    font-size:bold;
+}
+.search-container .search {
+    display: block;
+    margin:30px;
+}
+.search-container .search #long {
+    width:85vw;
+    height:20px;
+    padding:18px;
+    margin-right:0;
+}
+.box-container .box {
+    background-image: url('./image/fleyta.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30vw;
+    height:150px;
+    color:#fff;
+    font-size: large;
+    padding: 20px;
+}
+main .box-container {
+    display: inline;
+    align-content: center;
+    /* flex-direction: column; */
+    width:100%;
+    height:600px;
+    box-sizing: border-box;
+
+}
+main .box-container .box {
+    width:30vw;
+    display: inline-block;
+    margin: 1.5vw;
+}

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+margin: 0;
+box-sizing:border-box;
+}  
+
+
+@media  screen and (max-width:768px) {
+
+body {
+    font-family: 'Heebo';
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 100vw;
+
+}
+
+.container  {
+    width:90%;
+    margin:0 auto;
+}
+/* Header */
+header {
+    min-height: 110vh;
+    background-color: #fff;
+}
+
+nav {
+    width:100%;
+    padding: 50px 0;
+}
+
+.nav__item {
+    width:100%;
+    text-align: end;
+    padding: 20px 0;
+    width:100%;
+    display: none;
+}
+
+.nav__item>a {
+    margin:20px 10px;
+    font-size:26px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+    margin:auto;
+}
+
+.resume {
+    width:100%;
+    order:2;
+    text-align: center;
+}
+
+.resume>h1 {
+    font-size:44px;
+    font-weight: 700;
+}
+
+.resume__text {
+    color:#21243D;
+    font-size:18px;
+    line-height: 23px;
+    margin:20px 0;
+}
+
+.btn {
+    background-color: #FF6464;
+    padding:15px 30px;
+    border:none;
+    font-size:20px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.rasm {
+    width:250px;
+    border-radius: 50%;    
+    order: 1;
+}
+
+/* Recent Section */
+.recent__posts {
+    background-color:#EDF7FA;
+    box-sizing: border-box;
+    /* padding:0 10%; */
+    padding:10px 20px;
+    max-height: 870px;
+    overflow: hidden;
+}
+
+.tepa__chast {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:90%;
+    text-align: center;
+    margin:20px auto;
+    font-size:1.1rem;
+    text-align: center;
+}
+
+.tepa__chast>a {
+    text-decoration:none;
+    display: none;
+    
+}
+
+.tepa__chast>h3 {
+    font-size:1.3rem;
+    font-weight: 500;
+}
+
+
+.box__container {
+    display: grid;
+    grid-template-columns: 100%;
+    width:100%;
+    /* margin:10px auto; */
+    gap:5px 0px;
+}
+
+.box {
+    background-color:#fff;
+    padding:20px;
+    border-radius:5px;
+    font-size:20px;
+    margin: 10px 0px;
+
+}
+
+.box:not(:nth-child(1),:nth-child(2)) {
+    display: none;
+}
+
+.box__title {
+    font-size:1.6em;
+    font-weight:700;
+
+}
+
+.box__middle {
+    font-size:1.1em;
+    margin:20px 0;
+}
+
+.box__text {
+    padding:0px 40px  20px 0;
+    font-size:0.9em;
+}
+
+/* Futured works Section */
+.futured__works {
+    width:90%;
+    margin:0 auto;
+    font-size:18px;
+
+}
+
+.futured__title {
+    font-size:1.3rem;
+    font-weight: 500;
+    margin:2em auto 0;
+    width:90%;
+    text-align: center;
+}
+
+.futured__box__container {
+    display: flex;
+    width:100%;
+    margin:0 auto;
+    flex-direction:column;
+}
+
+.futured__box {
+    display: flex;
+    flex-direction: column;
+    margin:2em 0;  
+}
+
+.futured__box:not(:nth-child(1)),hr:not(:nth-child(2)) {
+    display: none;
+}
+
+.image {
+    width:100%;
+    min-height:330px;
+}
+
+.right {
+    margin-top:20px;
+    margin-left:0;
+}
+
+.futured__box__title {
+    font-size:2.2em;
+    font-weight:bolder;
+    color:rgb(33, 36, 30);
+}
+
+.futured__middle {
+    display: flex;
+    justify-content: space-between;
+    width:fit-content;
+    margin:1em 0;
+
+}
+
+.futured__middle>.number {
+    background-color: #21243D;
+    color:#fff;
+    font-size:1.5em;
+    padding:0 8px;
+    border-radius:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futured__middle>.jobs {
+    font-size:1.7em;
+    color:gray;
+    margin-left:1em;
+}
+
+.futured__box__text {
+    font-size:1.1em;
+}
+
+/* FOOTER  */
+footer {
+    text-align: center;
+    align-items:center;
+    padding:2em;
+    margin:2em;
+
+}
+
+.icons {
+    font-size:3em;
+    color:#21243D;
+    
+}
+
+.icon {
+    margin:0 0.3em;
+}
+
+.company {
+    font-size:1.1em;
+    margin-top: 0.2em;
+
+}
+
+
+
+
+}

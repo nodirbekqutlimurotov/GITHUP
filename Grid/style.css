@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Lexend';
+  background-color: #efefef;
+  width: 100vw;
+}
+
+.container {
+  width:90vw;
+  margin:auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  color:green;
+  padding:15px 30px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin:50px 0;
+}
+
+.btr {
+  margin: 0;
+  position: relative;
+  bottom:170px;
+  left:20px;
+}
+
+.t {
+  padding:20px;
+}
+
+.rasm {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rasm.qiz {
+  position: relative;
+  right:-67px;
+  bottom:60px;
+  height: 55%;
+  width: 300px;
+}
+
+.rasm.qulupnay {
+  position: relative;
+  border-radius: 50%;
+  bottom:-30%;
+  right:-30%;
+  /* z-index: -1; */
+}
+
+.rasm.karam {
+  float: right;
+  width: 35%;
+  height: 300px;
+}
+
+.left {
+  float: left;
+  width:65%;
+  padding:20px;
+}
+
+.top {
+  padding:20px;
+}
+main {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 300px 300px;
+  gap: 30px;
+  
+}
+
+.box {
+  background-color: rgb(231, 233, 251);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.box h4 {
+  font-size:26px;
+}
+
+.p {
+  color:#555;
+  font-weight:300;
+  font-size:16px;
+  line-height: 1.7;
+}
+
+.a {
+  grid-column: 1 / span 2;
+
+}
+
+.d {
+  grid-row:1/span 2;
+  grid-column:3/ span 1;
+}
+/* 
+Sotuv jarayoni tugadi
+ */
+  .client-container{
+    position: relative;
+    left: -70px;
+    display: grid;
+    grid-template-columns:540px 540px 400px;
+    grid-column: 200px;
+  }
+ .client-title{
+   font-size: 32px;
+   text-align: center;
+   margin:80px 0 40px;
+   font-weight: bold;
+ }
+ .paper {
+   margin:30px 20px;
+   width:500px;
+   height:330px;
+   background-color:#fff;
+   padding:20px;
+   border-radius:8px;
+   display: flex;
+   flex-direction: column;
+   /* line-height: 2; */
+ }
+
+ .yuqoriga {
+   position: relative;
+   top:-50px;
+   right:0;
+ }
+
+ .bg-black {
+   /* background-color:rgba(218, 215, 215, 0.7); */
+ filter: grayscale(100%);
+ }
+
+ .person {
+   background-image: url('./image/Rock.jpg');
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   /* margin-bottom:20px; */
+ }
+
+ .name {
+   position: relative;
+   left:80px;
+   width:max-content;
+ }
+
+ .icons {
+   margin: 20px 0;
+   color:rgba(227, 227, 9, 0.59);
+ }
+ /* 
+  footer start
+ */
+ footer {
+   background-color:#fff;
+ }
+ .banner {
+   display: flex;
+   justify-content: space-between;
+   height: 600px;
+   padding:50px;
+ }
+
+ .right {
+   background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NEgX3L4rSOngX2kPZf90gPjsR6Jr498jsw&usqp=CAU');
+   width:500px;
+   height: 500px;
+   border-radius:50%;
+ }
+
+ .left {
+  width: 50%;
+  line-height: 2;
+ }
+ .left>.alik {
+   line-height: 1.7;
+ }
+ .seedra {
+   background-image:url('./image/seedra.png');
+   width:100px;
+  
+ }
+
+

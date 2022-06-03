@@ -1,0 +1,140 @@
+@import url("../ARKA/style.css") screen and (max-width: 768px);
+/* inshu yaxshi narsa akan foydolonso bo`lakan*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://womanishclub.com/userfiles/122/6566_6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    /*  */
+    animation:tana 3s linear infinite ;
+    transform:rotate(180deg);
+}
+
+.box-container {
+    width: 600px;
+    height: 600px;
+    /* background-color: #fff;
+    border-radius:50%; */
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-color: red;
+    transition: transform 1s linear;
+    animation:aylanish infinite ease-in 45s ;
+    /*  */
+    background-image: url('./image/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+}
+
+@keyframes tana {
+    0% {
+        transform: rotate(0);
+        color:white;
+    }
+
+    25% {
+        color:black;
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        color:purple;
+        transform: rotate(-180deg);
+    }
+
+    75% {
+        color:coral;
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        color:yellow;
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes aylanish {
+    0% {
+        background-color: red;
+        transform: translate(0) rotateZ(0);
+    }
+
+    25% {
+        transform: translateX(500px) rotateZ(90deg);
+        background-color: yellow;
+    }
+
+    50% {
+        transform: translateX(500px)  translateY(500px) rotateZ(180deg);
+        background-color: green;
+    }
+
+    75% {
+        transform: translateX(500px)  translateY(500px) translateZ(-500px);
+        background-color: deepskyblue;
+    }
+
+    100% {
+        transform: translateX(500px)  translateY(500px) translateZ(-500px) translateY(-500px);
+        background-color: blue;
+    }
+}
+
+@keyframes aylanish-icon {
+    0% {
+        transform: rotate(0);
+        color:white;
+    }
+
+    25% {
+        color:black;
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        color:purple;
+        transform: rotate(-180deg);
+    }
+
+    75% {
+        color:coral;
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        color:yellow;
+        transform: rotate(-360deg);
+    }
+}
+
+.box>.icon {
+    font-size:70px;
+    color: #fff;
+    transition: transform 1s linear;
+    animation:aylanish-icon infinite linear 5s ;
+}

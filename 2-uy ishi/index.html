@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table&&list items</title>
+</head>
+<body>
+    <style>
+        *{
+            padding:5px 15px;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height:100vh;
+        }
+        #container{
+            background-color:rgb(196, 190, 190); 
+            display: inline-block; 
+            padding:10px;
+            transform: scale(2);
+        }
+        blockquote {
+            position:absolute;
+            bottom:20px;
+            right: 20px;
+            font-family:cursive;
+        }
+    </style>
+    <div id="container">
+        <table border="1" style="border-collapse:collapse;">
+            <caption><i>A test table with merged cells</i></caption>
+            <!-- 1 -->
+            <tr>
+                 <th rowspan="2"></th>
+                 <th colspan="2">Average</th>
+                 <th rowspan="2">Red eyes</th>
+            </tr>
+            <!-- 2 -->
+            <tr>
+                <th>height</th>
+                <th>weight</th>
+            </tr>
+            <!-- 3 -->
+            <tr>
+                <th>Males</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <!-- 4 -->
+            <tr>
+                <th>Females</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+     
+     
+        </table>
+    </div>
+    
+    <blockquote> Created by Nodirbek Qutlimurotov</blockquote>
+</body>
+</html>
